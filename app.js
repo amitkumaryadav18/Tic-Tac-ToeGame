@@ -22,8 +22,10 @@ mainStyle.innerHTML = 'body{ background-color: #1f2833;} .style-head{ margin-top
 createNode('div', '',body);
 const mainDiv = document.querySelectorAll('div')[0];
 
+// Adding font
+mainStyle.append(' @import url(\'https://fonts.googleapis.com/css?family=Muli&display=swap\'); ');
 mainDiv.classList.add('maindiv');
-mainStyle.append(' .maindiv{ position:absolute;content="";display:flex;flex-wrap: wrap;justify-content: space-between; top:50%;left:50%;transform:translate(-50%,-50%); background-color: #0b0c10; width: 44%;height: 70%;margin-top:2rem;}');
+mainStyle.append(' .maindiv{ position:absolute;content="";font-family: \'Muli\', sans-serif;display:flex;flex-wrap: wrap;justify-content: space-between; top:50%;left:50%;transform:translate(-50%,-50%); background-color: #0b0c10; width: 44%;height: 70%;margin-top:2rem;}');
 
 // Creating the small boxes
 const createBoxes = (element, Text ,appendTo) =>{
@@ -191,3 +193,4 @@ mainStyle.append(' .bright-color{ background-color: #f13c20 !important;} button:
 // Adding media Query to make It more responsive on small screens
 
 mainStyle.append(' @media only screen and (max-width: 900px){ .mainDiv{ width: 80% !important; height: 50%;}}');
+
