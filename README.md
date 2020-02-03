@@ -14,3 +14,4 @@ TO ADD ----
 1. Make a AI to play against.
 2. Make it more interactive.
 3. Score Calculator.
+by ravi
