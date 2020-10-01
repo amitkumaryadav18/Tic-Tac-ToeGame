@@ -1,6 +1,9 @@
-# Tic-Tac-ToeGame
+# Tic-Tac-Toe Game
+
+# Amazing Project for fresher 
+
 A Tic-Tac-Toe game made only using JavaScript (i.e. By Injecting from JS to DOM).
-Tic - Tac - Toe Game ---
+Tic - Tac - Toe Game 
 The game is based on 
 Tic-tac-toe (or) noughts and crosses (or) Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking
 the spaces in a 3×3 grid.
